@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/res/merged/debug/values-es-rUS/values-es-rUS.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

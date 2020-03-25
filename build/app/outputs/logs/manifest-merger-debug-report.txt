@@ -1,0 +1,648 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:path_provider] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_sign_in] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:url_launcher_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:share] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:sqflite] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/9aa22082b7d1a92baa44b22a599173df/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ec4a5816dc5cdb3c7ca18f546d71bd0/firebase-analytics-16.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4022ad461d48490dfce0b1460a31a4bb/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/39efd163893026f00b5f6f0fbb290adb/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/80cb7a7c8d2529c91e4237efb53d1f60/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f13bc0e290cd99bb973ea3eaaa446d48/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a8244b5c463b9febc28cb9bd1f7b3021/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7fb61ef65a43958c947c1f8a0588cf46/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c4c61f54d515d8a68b4f0bc39b3a557f/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/55a325015a3052130e92f9fea696c0c8/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b25b3e23719d76206455a1377b106f89/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/afc48fb45cea6315dddf10c9010333ad/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/924c5c5a329c7d055381fccc2a958416/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/e15e1f2cf6f5586b12899fe90fc59dfd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2256b7193ea0c853e1d53420a0a0708c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/263a72c4f83b1009ca21ce6b70657a4b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/3eae81950934925acbcdafab59b94f9e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/01824306ff77c5e996861b1f91cb2763/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c5616a66a285500e3b91fa7e1b854cf4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/bbf1e6cccf7f73dce305a60a46ccb4b4/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ebc32fbb435419d0500880331b04c97/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/52fcc37132d4371ae9f2096dc501bab1/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/e60ab5881bce74f5949dd4bca21d3d34/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8f60e6705db5d3228f959a94f7406608/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/5188e0c0bff53995461d8f18a601b19f/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/59cffd51a3f2ca82f59bf6faae70aefd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7b33b29e90804641b08236f76e39895d/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/dc85eb0c1e46669cf2b3e7a9f98522f2/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b03f9a7d17dfb7a4a71d5502b68e9add/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/563f36c9b9e165cb0ebec00346ed260d/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a4fe497e9e57f21f2f9827a5e5ab80a3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a618e699166c9b447545db2b81773648/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f129a2f91e1e477573eb6badd452ecb8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/749ccb0dee08b0613db550b363c266c8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/d6c9104e740bef90924c427cd88dab91/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a57a008c21ea2de521f9be9cb1b78cc0/grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/67fc4e9e1df43dffd8d3f9aec7ab3119/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/36573e9e29f6dec876763d9b86f1141c/protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:2:5-48
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [:google_sign_in] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:15:5-38:19
+MERGED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ec4a5816dc5cdb3c7ca18f546d71bd0/firebase-analytics-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ec4a5816dc5cdb3c7ca18f546d71bd0/firebase-analytics-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4022ad461d48490dfce0b1460a31a4bb/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4022ad461d48490dfce0b1460a31a4bb/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f13bc0e290cd99bb973ea3eaaa446d48/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f13bc0e290cd99bb973ea3eaaa446d48/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a8244b5c463b9febc28cb9bd1f7b3021/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a8244b5c463b9febc28cb9bd1f7b3021/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7fb61ef65a43958c947c1f8a0588cf46/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7fb61ef65a43958c947c1f8a0588cf46/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c4c61f54d515d8a68b4f0bc39b3a557f/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c4c61f54d515d8a68b4f0bc39b3a557f/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/55a325015a3052130e92f9fea696c0c8/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/55a325015a3052130e92f9fea696c0c8/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b25b3e23719d76206455a1377b106f89/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b25b3e23719d76206455a1377b106f89/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/afc48fb45cea6315dddf10c9010333ad/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/afc48fb45cea6315dddf10c9010333ad/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/563f36c9b9e165cb0ebec00346ed260d/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/563f36c9b9e165cb0ebec00346ed260d/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:17:9-46
+	android:icon
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:18:9-43
+	android:name
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:16:9-57
+activity#com.popupbits.flutteruichallenges.MainActivity
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:19:9-37:20
+	android:launchMode
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:23:13-137
+	android:theme
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:30:13-32:40
+	android:value
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:32:17-37
+	android:name
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:31:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+MERGED from [:path_provider] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_web] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/google_sign_in_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/9aa22082b7d1a92baa44b22a599173df/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/9aa22082b7d1a92baa44b22a599173df/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ec4a5816dc5cdb3c7ca18f546d71bd0/firebase-analytics-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ec4a5816dc5cdb3c7ca18f546d71bd0/firebase-analytics-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4022ad461d48490dfce0b1460a31a4bb/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4022ad461d48490dfce0b1460a31a4bb/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/39efd163893026f00b5f6f0fbb290adb/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/39efd163893026f00b5f6f0fbb290adb/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/80cb7a7c8d2529c91e4237efb53d1f60/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/80cb7a7c8d2529c91e4237efb53d1f60/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f13bc0e290cd99bb973ea3eaaa446d48/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f13bc0e290cd99bb973ea3eaaa446d48/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a8244b5c463b9febc28cb9bd1f7b3021/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a8244b5c463b9febc28cb9bd1f7b3021/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7fb61ef65a43958c947c1f8a0588cf46/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7fb61ef65a43958c947c1f8a0588cf46/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c4c61f54d515d8a68b4f0bc39b3a557f/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c4c61f54d515d8a68b4f0bc39b3a557f/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/55a325015a3052130e92f9fea696c0c8/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/55a325015a3052130e92f9fea696c0c8/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b25b3e23719d76206455a1377b106f89/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b25b3e23719d76206455a1377b106f89/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/afc48fb45cea6315dddf10c9010333ad/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/afc48fb45cea6315dddf10c9010333ad/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/924c5c5a329c7d055381fccc2a958416/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/924c5c5a329c7d055381fccc2a958416/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/e15e1f2cf6f5586b12899fe90fc59dfd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/e15e1f2cf6f5586b12899fe90fc59dfd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2256b7193ea0c853e1d53420a0a0708c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2256b7193ea0c853e1d53420a0a0708c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/263a72c4f83b1009ca21ce6b70657a4b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/263a72c4f83b1009ca21ce6b70657a4b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/3eae81950934925acbcdafab59b94f9e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/3eae81950934925acbcdafab59b94f9e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/01824306ff77c5e996861b1f91cb2763/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/01824306ff77c5e996861b1f91cb2763/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c5616a66a285500e3b91fa7e1b854cf4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c5616a66a285500e3b91fa7e1b854cf4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/bbf1e6cccf7f73dce305a60a46ccb4b4/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/bbf1e6cccf7f73dce305a60a46ccb4b4/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ebc32fbb435419d0500880331b04c97/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/2ebc32fbb435419d0500880331b04c97/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/52fcc37132d4371ae9f2096dc501bab1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/52fcc37132d4371ae9f2096dc501bab1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/e60ab5881bce74f5949dd4bca21d3d34/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/e60ab5881bce74f5949dd4bca21d3d34/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7d72cb4e8ded339b6f47e0216ee564f6/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8f60e6705db5d3228f959a94f7406608/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8f60e6705db5d3228f959a94f7406608/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/5188e0c0bff53995461d8f18a601b19f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/5188e0c0bff53995461d8f18a601b19f/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/59cffd51a3f2ca82f59bf6faae70aefd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/59cffd51a3f2ca82f59bf6faae70aefd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7b33b29e90804641b08236f76e39895d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/7b33b29e90804641b08236f76e39895d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/dc85eb0c1e46669cf2b3e7a9f98522f2/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/dc85eb0c1e46669cf2b3e7a9f98522f2/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b03f9a7d17dfb7a4a71d5502b68e9add/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/b03f9a7d17dfb7a4a71d5502b68e9add/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/563f36c9b9e165cb0ebec00346ed260d/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/563f36c9b9e165cb0ebec00346ed260d/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a4fe497e9e57f21f2f9827a5e5ab80a3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a4fe497e9e57f21f2f9827a5e5ab80a3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a618e699166c9b447545db2b81773648/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a618e699166c9b447545db2b81773648/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f129a2f91e1e477573eb6badd452ecb8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/f129a2f91e1e477573eb6badd452ecb8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/749ccb0dee08b0613db550b363c266c8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/749ccb0dee08b0613db550b363c266c8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/d6c9104e740bef90924c427cd88dab91/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/d6c9104e740bef90924c427cd88dab91/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a57a008c21ea2de521f9be9cb1b78cc0/grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a57a008c21ea2de521f9be9cb1b78cc0/grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/67fc4e9e1df43dffd8d3f9aec7ab3119/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/67fc4e9e1df43dffd8d3f9aec7ab3119/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/36573e9e29f6dec876763d9b86f1141c/protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/36573e9e29f6dec876763d9b86f1141c/protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhangxi/flutter_workspace/flutter_ui_challenges/android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_remote_config] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_remote_config/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-139
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a57a008c21ea2de521f9be9cb1b78cc0/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a57a008c21ea2de521f9be9cb1b78cc0/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/zhangxi/flutter_workspace/flutter_ui_challenges/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/4b424f00e3b15d55b237ff6dc176f387/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cd83389ffe91c032f14b035b6b85cb42/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:19.0.3] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/6e6aa9e875a4177b98b048f9951055fc/firebase-config-19.0.3/AndroidManifest.xml:33:17-117
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:19.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/28fed7ab9adfd028a84ed9c578cc32b8/firebase-abt-19.0.0/AndroidManifest.xml:14:17-109
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/87a89f43a49e7288b50dae2ad371ea70/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/8cf11524ad63d535be60fcb02bdcb8b3/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a1b0549dcfba7bc7b8f527435a542401/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/aa40c72391c86f73983ef3907ad82274/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/cc63a6b09b91895a5650a720ebe1e1fb/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/a44191ea9963f0b7031534be25c0c305/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/c9d3395b01bbfbf9d4bf42aa7537fda9/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/273d56523ea196196ef8d7340ab7190d/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/zhangxi/.gradle/caches/transforms-2/files-2.1/979c378448513158e3639a65b9c8bb3c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
